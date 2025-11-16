@@ -1,0 +1,97 @@
+:root {
+  --clr-neutral-100: #fff;
+  --clr-neutral-400: #474554;
+  --clr-primary-200: #bac9e8;
+  --clr-primary-300: #3c7dff;
+  --clr-primary-400: #0044cc;
+  --clr-primary-500: #0c1832;
+
+  --ff-base: "IBM Plex Serif", serif;
+  --ff-accent: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.0625rem;
+  font-family: var(--ff-base);
+  line-height: 1.65;
+  background-color: var(--clr-primary-200);
+  padding: 4rem;
+}
+
+.section-title {
+  font-family: var(--ff-accent);
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+.bg-light,
+.bg-neutral,
+.bg-accent,
+.bg-dark {
+  background: var(--clr-neutral-100);
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 25px;
+  margin: 0 20rem;
+  margin-bottom: 3rem;
+}
+.bg-accent {
+  background: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+.bg-dark {
+  background: var(--clr-primary-500);
+  color: var(--clr-neutral-100);
+}
+.btn {
+  background: var(--clr-primary-500);
+  text-decoration: none;
+  margin: 4px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+#button1 {
+  background: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+#button2 {
+  background: var(--clr-neutral-400);
+  color: var(--clr-neutral-100);
+}
+#button3 {
+  background: var(--clr-neutral-100);
+  color: var(--clr-primary-400);
+  border: 2px solid;
+}
+#button4 {
+  background: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+  border: 2px solid;
+}
+#button5 {
+  background: var(--clr-neutral-400);
+  color: var(--clr-neutral-100);
+}
+#button6 {
+  background: var(--clr-neutral-100);
+  color: var(--clr-primary-400);
+  border: 2px solid;
+}
+#button7 {
+  background: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+#button8 {
+  background: var(--clr-neutral-100);
+  color: var(--clr-primary-300);
+}
+#button9 {
+  background: var(--clr-primary-500);
+  color: var(--clr-neutral-100);
+  border: 2px solid;
+}
