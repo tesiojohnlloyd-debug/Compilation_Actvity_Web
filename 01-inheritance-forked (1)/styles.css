@@ -1,0 +1,58 @@
+a {
+  color: #CA5E10;;
+}
+
+header {
+  align-items: center;
+}
+
+h1 {
+  font-family: Cinzel;
+  font-size: 96px;
+  text-align: center;
+  color: #000000;
+  line-height: 4rem;
+  padding: 0 3rem;
+  padding-top: 6rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: PT Serif;
+  font-size: 36px;
+  text-align: center;
+  color: #7d7d7d;
+  padding: 1.125rem 0;
+  padding-bottom: 2.25rem;
+  margin: 0 11rem;
+}
+
+body {
+  max-width: 900rem;
+  max-height: 400rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  padding: 0 1.125rem;
+}
+
+p {
+  font-family: PT Serif;
+  font-size: 18px;
+  color: #414141;
+  text-align: left;
+  margin: 0 18.568rem;
+  padding-bottom: 1.125rem;
+}
+
+.lead {
+  font-family: PT Serif;
+  font-size: 21px;
+  color: #414141
+  text-align: left;
+  padding-top: 1.3125rem;
+  padding: 0 1.3125;
+  margin: 0 18.5rem;
+}
