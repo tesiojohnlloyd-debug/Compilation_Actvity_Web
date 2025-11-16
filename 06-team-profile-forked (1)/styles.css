@@ -1,0 +1,145 @@
+/* Don't Modify */
+:root {
+  --clr-base-400: #5e5e5e;
+  --clr-base-500: #494949;
+
+  --clr-ui-300: #f8e2ff;
+  --clr-ui-400: #580d3a;
+  --clr-ux-300: #e2ffea;
+  --clr-ux-400: #115926;
+  --clr-dev-300: #e2fcff;
+  --clr-dev-400: #024f4f;
+
+  --clr-accent-400: #7e47c5;
+
+  --ff-accent: "Podkova", serif;
+  --ff-base: "Open Sans", sans-serif;
+
+  --fs-300: 0.75rem;
+  --fs-400: 1rem;
+  --fs-500: 2rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  --border-radius: 0.75rem;
+}
+
+/* /////////////////
+   Layout related
+   no need to touch any of this
+//////////////////*/
+
+/* Don't Modify */
+
+/* Start Here */
+
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Podkova", serif;
+}
+
+.btn {
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bio {
+  margin: 0;
+  color: #5e5e5e;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tag {
+  background-color: #e2ffea;
+  padding: 4px;
+  border-radius: 0.75rem;
+  color: #115926;
+}
+
+.tags {
+  background-color: #f8e2ff;
+  padding: 4px;
+  border-radius: 0.75rem;
+  margin-right: 10px;
+  color: #580d3a;
+}
+
+.name {
+  font-family: "Podkova", serif;
+  margin-bottom: 0;
+  color: #5e5e5e;
+  font-size: 30px;
+}
+
+.roles {
+  margin-top: 2px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.candidates {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+}
+
+.candidate {
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  height: 240px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+.candidate img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0.75rem;
+  margin-left: 15px;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  object-fit: cover;
+  margin-top: -20px;
+}
+
+.social img {
+  width: 15px;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 8rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #7e47c5;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 0.75rem;
+  position: absolute;
+  top: 11.7em;
+  right: 1rem;
+  text-transform: uppercase;
+}
+
+.blue {
+  background-color: #e2fcff;
+  padding: 4px;
+  border-radius: 0.75rem;
+  margin-left: 0px;
+  color: #494949;
+}
